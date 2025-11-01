@@ -16307,7 +16307,7 @@ class CreateNotes < ActiveRecord::Migration[7.0]
       t.boolean :pinned, null: false, default: false
       t.timestamps
     end
-
+   
     add_index :notes, :pinned
     add_index :notes, :created_at
   end
