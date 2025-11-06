@@ -25412,6 +25412,7 @@ class CreateNotes < ActiveRecord::Migration[7.0]
       t.boolean :pinned, null: false, default: false
       t.timestamps
     end
+ 
 end
 class CreateNotes < ActiveRecord::Migration[7.0]
   def change
