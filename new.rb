@@ -27535,6 +27535,7 @@ end
 class CreateNotes < ActiveRecord::Migration[7.0]
   def change
     create_table :notes do |t|
+    
       t.string :title, null: false
       t.text :body, null: false
       t.boolean :pinned, null: false, default: false
